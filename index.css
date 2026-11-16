@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family :'Be VietNam Pro' , sans-serif;
+    background-color: #8eb69b;
+    color : #0b2b26;
+    min-height: 100vw;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 30px;
+    padding: 60px 20px 20px 20px;
+}
+#noidungchinh{
+    background-color: #3E947F;
+    max-width : 720px;
+    width : 100%;
+    padding : 45px 35px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px #235347;
+    text-align: center;
+    border-top: 12px solid #235347;
+}
+h1{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.thongtin{
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+#danhsachbai{
+    display: flex;
+    gap : 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.baitap {
+    background-color: white;
+    border : 2px solid #bdd7d8;
+    border-radius: 12px;
+    padding : 25px 20px;
+    width : 290px;
+    text-decoration: none;
+    color : #2f3a3a;
+    transition: transform 0.25s, box-shadow 0.25s, boder-color 0.25s;
+}
+.baitap:hover{
+    transform : translateY(-6px);
+    border-color: #5d6b6b;
+    box-shadow: 0 8px 20px #235347;
+}
+.baitap h2{
+    color : #5d6b6b;
+    font-size: 19px;
+    margin-top: 10px;
+}

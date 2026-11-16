@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Be VietNam Pro', sans-serif;
+    background-color: #D5E5E5;
+    padding : 30px;
+    color : #2f3a3a;
+}
+#khungcv
+{
+    max-width: 900px;
+    margin : 0 auto;
+    display : flex;
+    box-shadow : 0 10px 25px rgba(93, 107, 107, 0.2);
+}
+#khunganh
+{
+    width : 190px;
+    height : 190px;
+    margin : 0 auto 20px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border : 4px solid #f1f7f7;
+}
+#khunganh img{
+    width : 100%;
+    height : 100%;
+    object-fit: cover;
+}
+#cottrai
+{
+    width :36%;
+    background-color: #F1F7F7;
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    padding: 10px 5px;
+    border-bottom: 1px solid #5d6b6b;
+    font-size: 12px;
+    text-align: left;
+    color : #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact a {
+    color: inherit;
+    text-decoration: none;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+#cottraitren
+{
+    background-color: #6da5c0;
+    padding : 30px 25px;
+    text-align: center;
+}
+#cottraiduoi
+{
+    padding : 35px 30px 20px 35px;
+    background-color : #dcebf4;
+    flex : 1;
+}
+#cotraiduoi h2 {
+    font-size: 17px;
+    text-transform:uppercase ;
+    color : #5d6b6b;
+    border-bottom : 2px solid #bdd7d8;
+    padding-bottom : 6px;
+    margin : 30px 0 14px 0;
+}
+#cottraiduoi h2:first-child {
+    margin-top : 0;
+}
+#cottraiduoi ul {
+    padding-left : 18px;
+    font-size: 14px;
+    line-height: 1.3;
+}
+#cottraiduoi li {
+    margin-bottom: 10px;
+    line-height : 1.3;
+}
+#cottraiduoi p{
+    font-size : 14px;
+    line-height : 1.5;
+}
+/*ngan ccahs */
+
+#cotphai
+{
+    width : 64%;
+    background-color : #F1F7F7;
+    display: flex;
+    flex-direction: column;
+}
+#cotphaitren
+{
+    background-color: #294d61;
+    color: #f1f7f7;
+    padding : 40px 35px;
+}
+#cotphaitren h1 {
+    font-size : 28px;
+    letter-spacing: 2px;
+    margin-bottom : 6px;
+}
+.cviec{
+    font-size : 16px;
+    font-weight: bold;
+    color : #bdd7d8;
+    margin-bottom : 16px;
+}
+.tugioithieu {
+    font-size: 14px;
+    line-height: 1.6;
+    color : #f1f7f7;
+}
+#cotphaiduoi
+{
+    padding : 30px 30px 30px 30px;
+    flex : 1;
+    background-color: #c8dfed;
+}
+#cotphaiduoi h3{
+    font-size: 17px;
+    text-transform: uppercase;
+    color : #5d6b6b;
+    padding-bottom : 6px;
+    margin : 28px 0 14px 0;
+}
+#cotphaiduoi h3:first-child{
+    margin-top: 0;
+}
+#cotphaiduoi ul {
+    padding-left : 18px;
+    font-size : 14px;
+    line-height : 1.6;
+}
+#cotphaiduoi li {
+    margin-bottom : 10px;
+    line-height: 1.6;
+}
+#cotphaiduoi p {
+    font-size :14px;
+    margin-top: 12px;
+    line-height: 1.5;
+}
+.tghoc{
+    display : inline-block;
+    background-color : #0c7075;
+    color : #f1f7f7;
+    padding : 3px 12px;
+    border-radius : 20px;
+    font-size : 12px;
+    font-weight: bold;
+    margin-top : 4px;
+    margin-bottom: 6px;
+}
+.hoatdong strong {
+    display : block;
+    font-size : 14px;
+    margin-top : 14px;
+}
+.tgtgiahoatdong {
+    font-size :13px;
+    font-style :italic;
+    color : #5d6b6b;
+    margin-top : 2px !important;
+    margin-bottom : 8px;
+}
+#khungcv{
+    border-bottom:  18px solid #072e33;
+}

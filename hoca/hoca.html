@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ cá</title>
+    <link rel="stylesheet" href ="hoca.css">
+</head>
+<body>
+    <div id="cavang">
+        <img src="aquarium/goldFishSchool.png">
+    </div>
+    <div id="faint">
+        <img src="aquarium/faintSchool.png">
+    </div>
+    <div id="rua">
+        <img src="aquarium/turtle.png">
+    </div>
+    <div id="camap">
+        <img src="aquarium/shark.png">
+    </div>
+    <div id="tholan1">
+        <img src="aquarium/diver1.png">
+    </div>
+    <div id="tholan2">
+        <img src="aquarium/diver2.png">
+    </div>
+    <div id="tholan3">
+        <img src="aquarium/diver3.png">
+    </div>
+    <button id="doinenhoca" onclick="doinen()">Đổi Nền</button>
+    <script>
+        const danhsachnen = [ 
+            "linear-gradient(to bottom, #24788f, #185a73, #0a3a53)",
+            "linear-gradient(to bottom, #ff7e5f, #feb47b, #1e3c72)",
+            "linear-gradient(to bottom, #0f2027, #203a43, #050d14)"]
+        ;
+        let vitri = 0;
+        function doinen()
+        {
+            vitri = (vitri + 1) % danhsachnen.length;
+            document.body.style.background = danhsachnen[vitri];
+        }
+    </script>
+</body>
+</html>
